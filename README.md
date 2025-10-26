@@ -8,10 +8,6 @@ Esta é uma aplicação de console, construída com **Spring Boot**, que permite
 A aplicação gerencia um único recurso principal: o **Animal**. Este recurso é representado no banco de dados pela tabela `animais` e no código pela `AnimalEntity`.
 
 Abaixo estão as propriedades do recurso `Animal`:
-Peço desculpas pelo erro de formatação e por incluir a coluna de descrição novamente.
-
-Aqui está a tabela do recurso **Animal** formatada exatamente com as colunas `Propriedade`, `Tipo de Dado` e `Obrigatório`, conforme solicitado, e com a sintaxe Markdown correta.
-
 ---
 
 ## Recurso Gerenciado: Animal
