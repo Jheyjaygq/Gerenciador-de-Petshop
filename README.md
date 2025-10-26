@@ -10,12 +10,6 @@ A aplicação gerencia um único recurso principal: o **Animal**. Este recurso �
 Abaixo estão as propriedades do recurso `Animal`:
 ---
 
-## Recurso Gerenciado: Animal
-
-A aplicação gerencia um único recurso principal: o **Animal**. Este recurso é representado no banco de dados pela tabela `animais` e no código pela `AnimalEntity`.
-
-Abaixo estão as propriedades do recurso `Animal`:
-
 | Propriedade | Tipo de Dado | Obrigatório |
 | :--- | :--- | :--- |
 | `id` | `Long` | **Sim** |
