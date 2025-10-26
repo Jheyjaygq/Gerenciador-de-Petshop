@@ -57,16 +57,29 @@ Para compilar e executar este projeto, você precisará ter os seguintes softwar
 O projeto está configurado no arquivo `pom.xml` para usar o driver `sqlite-jdbc`. Quando você compilar o projeto com o Maven, ele baixará automaticamente esse driver. A aplicação Java usará esse driver para criar e gerenciar um arquivo chamado `animais.db` no diretório raiz do projeto. Este arquivo é o seu banco de dados.
 
 ### Passos para Instalação
+### 
 
-1.  **Clone o repositório** 
-
-2.  Abra um terminal ou prompt de comando e navegue até o diretório raiz do projeto (onde o arquivo `pom.xml` está localizado).
-
-3.  Execute o comando do Maven para **baixar as dependências** e compilar o projeto:
-
-    ```bash
-    mvn clean install
-    ```
+1. Clonar o repositório:Bash
+    
+    Abra seu terminal ou prompt de comando e execute o comando abaixo para baixar o código-fonte:
+    
+    # 
+    
+    `git clone https://github.com/Jheyjaygq/Gerenciador-de-Petshop`
+    
+2. **Navegar para o diretório do projeto:**Bash
+    
+    # 
+    
+    `cd Gerenciador-de-Petshop`
+    
+3. Baixar dependências e compilar:Bash
+    
+    Execute o comando do Maven para baixar todas as dependências (incluindo o driver SQLite) e compilar o projeto:
+    
+    # 
+    
+    `mvn clean install`
 
 -----
 
