@@ -87,9 +87,10 @@ Para iniciar a aplicação, certifique-se de que você está no diretório raiz 
 ```bash
 mvn spring-boot:run
 
+```
+
 Ao iniciar, a aplicação criará automaticamente o arquivo `animais.db` (caso não exista) e exibirá o menu principal no console:
 
-```
 === Gerenciamento do Pet Shop ===
 1. Listar animais
 2. Cadastrar animal
