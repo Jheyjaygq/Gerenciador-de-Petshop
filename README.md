@@ -104,7 +104,7 @@ Escolha uma opção:
 Basta digitar o número da opção desejada e pressionar ENTER.
 
 
-### 1\. Listar animais
+## 1. Listar animais
 
   * **Descrição:** Exibe uma lista de todos os animais atualmente cadastrados no banco de dados.
   * **Exemplo de Saída:**
@@ -114,7 +114,8 @@ Basta digitar o número da opção desejada e pressionar ENTER.
     Id:2 | Nome: Angelina | Especie: Gato | Raça: Siamês | Idade:2 | Data de Cadastro: 2025-10-25
     ```
 
-### 2\. Cadastrar animal
+
+## 2. Cadastrar animal
 
   * **Descrição:** Inicia um formulário interativo para adicionar um novo animal. Campos obrigatórios não podem ser deixados em branco.
   * **Exemplo de Interação:**
@@ -127,7 +128,8 @@ Basta digitar o número da opção desejada e pressionar ENTER.
     Animal cadastrado! ID = 2
     ```
 
-### 3\. Buscar por nome
+
+## 3. Buscar por nome
 
   * **Descrição:** Permite pesquisar animais. A busca **não** diferencia maiúsculas de minúsculas e encontrará animais cujo nome *contenha* o texto digitado.
   * **Exemplo de Interação:**
@@ -138,7 +140,8 @@ Basta digitar o número da opção desejada e pressionar ENTER.
     Id:1 | Nome: Rex | Especie: Cachorro | Raça: Labrador | Idade:5 | Data de Cadastro: 2025-10-26
     ```
 
-### 4\. Deletar animal
+
+## 4. Deletar animal
 
   * **Descrição:** Remove um animal do banco de dados com base no `ID` fornecido.
   * **Exemplo de Interação:**
@@ -149,7 +152,8 @@ Basta digitar o número da opção desejada e pressionar ENTER.
     ```
     *Se o ID não existir, a aplicação informará que não o encontrou.*
 
-### 5\. Atualizar animal
+
+## 5. Atualizar animal
 
   * **Descrição:** Permite modificar os dados de um animal existente. Você primeiro informa o `ID` do animal que deseja alterar. Em seguida, a aplicação mostra o valor atual de cada campo e solicita o novo valor.
   * **Para manter o valor atual de um campo, basta pressionar ENTER sem digitar nada.**
@@ -170,6 +174,7 @@ Basta digitar o número da opção desejada e pressionar ENTER.
     ID: 2 | Nome: Floco | Espécie: Gato | Raça: Persa | Idade: 3 | Data de Cadastro: 2025-10-26
     ```
 
-### 0\. Sair
+
+## 0. Sair
 
   * **Descrição:** Encerra a aplicação.
