@@ -90,7 +90,7 @@ mvn spring-boot:run
 ```
 
 Ao iniciar, a aplicação criará automaticamente o arquivo `animais.db` (caso não exista) e exibirá o menu principal no console:
-
+```
 === Gerenciamento do Pet Shop ===
 1. Listar animais
 2. Cadastrar animal
@@ -102,8 +102,6 @@ Escolha uma opção:
 ```
 
 Basta digitar o número da opção desejada e pressionar ENTER.
-
-
 ## 1. Listar animais
 
   * **Descrição:** Exibe uma lista de todos os animais atualmente cadastrados no banco de dados.
