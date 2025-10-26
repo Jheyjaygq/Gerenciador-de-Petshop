@@ -8,24 +8,28 @@ Esta é uma aplicação de console, construída com **Spring Boot**, que permite
 A aplicação gerencia um único recurso principal: o **Animal**. Este recurso é representado no banco de dados pela tabela `animais` e no código pela `AnimalEntity`.
 
 Abaixo estão as propriedades do recurso `Animal`:
+Peço desculpas pelo erro de formatação e por incluir a coluna de descrição novamente.
 
-| Propriedade | Tipo de Dado | Obrigatório | 
+Aqui está a tabela do recurso **Animal** formatada exatamente com as colunas `Propriedade`, `Tipo de Dado` e `Obrigatório`, conforme solicitado, e com a sintaxe Markdown correta.
 
-| :--- | :--- | :--- | 
+---
 
+## Recurso Gerenciado: Animal
+
+A aplicação gerencia um único recurso principal: o **Animal**. Este recurso é representado no banco de dados pela tabela `animais` e no código pela `AnimalEntity`.
+
+Abaixo estão as propriedades do recurso `Animal`:
+
+| Propriedade | Tipo de Dado | Obrigatório |
+| :--- | :--- | :--- |
 | `id` | `Long` | **Sim** |
-
 | `nome` | `String` | **Sim** |
-
 | `especie` | `String` | **Sim** |
-
 | `raca` | `String` | Não |
-
 | `idade` | `int` | **Sim** |
+| `dataCadastro` | `LocalDate` | Não |
 
-| `dataCadastro` | `LocalDate` | Não | 
-
------
+---
 
 ## Tecnologias Utilizadas
 
@@ -56,32 +60,32 @@ Para compilar e executar este projeto, você precisará ter os seguintes softwar
 
 O projeto está configurado no arquivo `pom.xml` para usar o driver `sqlite-jdbc`. Quando você compilar o projeto com o Maven, ele baixará automaticamente esse driver. A aplicação Java usará esse driver para criar e gerenciar um arquivo chamado `animais.db` no diretório raiz do projeto. Este arquivo é o seu banco de dados.
 
-### Passos para Instalação
-### 
 
-1. Clonar o repositório:Bash
-    
+### Passos para Instalação
+
+1.  **Clonar o repositório:**
     Abra seu terminal ou prompt de comando e execute o comando abaixo para baixar o código-fonte:
-    
-    # 
-    
-    `git clone https://github.com/Jheyjaygq/Gerenciador-de-Petshop`
-    
-2. **Navegar para o diretório do projeto:**Bash
-    
-    # 
-    
-    `cd Gerenciador-de-Petshop`
-    
-3. Baixar dependências e compilar:Bash
-    
+
+    ```bash
+    git clone https://github.com/Jheyjaygq/Gerenciador-de-Petshop
+    ```
+
+2.  **Navegar para o diretório do projeto:**
+
+    ```bash
+    cd Gerenciador-de-Petshop
+    ```
+
+3.  **Baixar dependências e compilar:**
     Execute o comando do Maven para baixar todas as dependências (incluindo o driver SQLite) e compilar o projeto:
-    
-    # 
-    
-    `mvn clean install`
+
+    ```bash
+    mvn clean install
+    ```
 
 -----
+
+
 
 ## Como Usar a Aplicação
 
