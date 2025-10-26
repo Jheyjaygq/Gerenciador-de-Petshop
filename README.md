@@ -82,7 +82,7 @@ O projeto está configurado no arquivo `pom.xml` para usar o driver `sqlite-jdbc
 ## Como Usar a Aplicação
 
 
-Para iniciar a aplicação, certifique-se de que você está no diretório raiz do projeto (o mesmo local onde está o arquivo `pom.xml`) e execute o seguinte comando no seu terminal:
+Para iniciar a aplicação, certifique-se de que você está no diretório raiz do projeto e execute o seguinte comando no seu terminal:
 
 ```bash
 mvn spring-boot:run
