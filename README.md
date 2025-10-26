@@ -35,7 +35,7 @@ Abaixo estão as propriedades do recurso `Animal`:
 
 Para compilar e executar este projeto, você precisará ter os seguintes softwares instalados em seu sistema:
 
-1.  **Java Development Kit (JDK) - Versão 21 ou superior**
+1.  **Java Development Kit (JDK)**
     * Você pode baixar o JDK (por exemplo, OpenJDK) no site oficial da [Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 2.  **Apache Maven**
