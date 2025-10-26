@@ -10,12 +10,19 @@ A aplicação gerencia um único recurso principal: o **Animal**. Este recurso �
 Abaixo estão as propriedades do recurso `Animal`:
 
 | Propriedade | Tipo de Dado | Obrigatório | 
-| :--- | :--- | :--- | :--- | :--- |
-| `id` | `Long` | Sim |
-| `nome` | `String` | **Sim** |  
+
+| :--- | :--- | :--- | 
+
+| `id` | `Long` | **Sim** |
+
+| `nome` | `String` | **Sim** |
+
 | `especie` | `String` | **Sim** |
+
 | `raca` | `String` | Não |
+
 | `idade` | `int` | **Sim** |
+
 | `dataCadastro` | `LocalDate` | Não | 
 
 -----
@@ -36,7 +43,7 @@ Para compilar e executar este projeto, você precisará ter os seguintes softwar
 
 1.  **Java Development Kit (JDK) - Versão 21 ou superior**
 
-      * Você pode baixar o JDK (por exemplo, OpenJDK) no site oficial da [Oracle](https://www.oracle.com/java/technologies/downloads/) ou de distribuições como [Adoptium](https://adoptium.net/).
+      * Você pode baixar o JDK (por exemplo, OpenJDK) no site oficial da [Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 2.  **Apache Maven**
 
