@@ -103,6 +103,7 @@ Escolha uma opção:
 
 Basta digitar o número da opção desejada e pressionar ENTER.
 
+
 ### 1\. Listar animais
 
   * **Descrição:** Exibe uma lista de todos os animais atualmente cadastrados no banco de dados.
