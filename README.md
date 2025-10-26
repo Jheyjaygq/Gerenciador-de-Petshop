@@ -42,14 +42,16 @@ Abaixo estão as propriedades do recurso `Animal`:
 Para compilar e executar este projeto, você precisará ter os seguintes softwares instalados em seu sistema:
 
 1.  **Java Development Kit (JDK) - Versão 21 ou superior**
-
-      * Você pode baixar o JDK (por exemplo, OpenJDK) no site oficial da [Oracle](https://www.oracle.com/java/technologies/downloads/).
+    * Você pode baixar o JDK (por exemplo, OpenJDK) no site oficial da [Oracle](https://www.oracle.com/java/technologies/downloads/).
 
 2.  **Apache Maven**
+    * O Maven é usado para gerenciar as dependências e compilar o projeto. Você pode baixá-lo em [maven.apache.org](https://maven.apache.org/download.cgi).
+    * *Nota: Muitas IDEs (como IntelliJ IDEA e Eclipse) já vêm com o Maven embutido.*
 
-      * O Maven é usado para gerenciar as dependências e compilar o projeto. Você pode baixá-lo em [maven.apache.org](https://maven.apache.org/download.cgi).
-      * *Nota: Muitas IDEs (como IntelliJ IDEA e Eclipse) já vêm com o Maven embutido.*
-
+3.  **Git**
+    * O Git é necessário para baixar (clonar) o código-fonte do repositório.
+    * Você pode baixá-lo em [git-scm.com](https://git-scm.com/downloads).
+      
 ### Sobre o Banco de Dados (SQLite)
 
 **Nenhuma instalação manual do SQLite é necessária.**
@@ -84,6 +86,12 @@ O projeto está configurado no arquivo `pom.xml` para usar o driver `sqlite-jdbc
 
 
 ## Como Usar a Aplicação
+
+
+Para iniciar a aplicação, certifique-se de que você está no diretório raiz do projeto (o mesmo local onde está o arquivo `pom.xml`) e execute o seguinte comando no seu terminal:
+
+```bash
+mvn spring-boot:run
 
 Ao iniciar, a aplicação criará automaticamente o arquivo `animais.db` (caso não exista) e exibirá o menu principal no console:
 
